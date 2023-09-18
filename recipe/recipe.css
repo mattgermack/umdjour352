@@ -1,0 +1,15 @@
+h1{
+    color:blue;
+    font-family: Arial, sans-serif;
+}
+
+i{
+    color:red;
+}
+
+ul{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sauteed Kale Recipe</title>
+    <meta name="description" content="Make an delicious, nutriious meal in under 15 minutes!">
+    <h1>Sauteed Kale Recipe</h1>
+    <link rel="stylesheet" href=“css/recipe.css”>
+</head>
+<body>
+    <img src = https://easylowcarb.com/wp-content/uploads/2020/12/ELC-Sauteed-Kale-5-SpendWithPennies_-500x375.jpg>
+    <p>My mom didn't have a ton of money growing up, but as a nutritionist, she was always obsessed with health.</p>
+    <p>This recipe was something she made religiously — an easy, nutritient-filled but inexpensive recipe that only takes 10-15 minutes.</p>
+    <h2>Ingredients</h2>
+    <i>Two-person serving</i>
+    <ul>
+        <p>4-5 leaves of kale</p>
+        <p>1/6 stick of butter</p>
+        <p>1 lemon</p>
+        <p>Nutritional yeast</p>
+        <p>Tahini</p>
+        <p>Salt</p>
+    </ul>
+    <br></br>
+    <h2>Directions</h2>
+    <ol>
+    	<p>1. Melt the butter in pan until liquid. While this is happening, tear up each kale leaf into 6-8 pieces and juice the lemon</p>
+        <p>2. Place kale in pan and spatulate until kale is noticably darker and relatively soaked</p>
+        <p>3. Pour lemon juice into pan and spatulate it into the kale</p>
+        <p>4. Spatulate occasionally until kale is unappetizingly wrinkly and dark(but not burned)</p>
+        <p>5. Add 1-2 tablespoons of nutrional yeast, based on preference. Add .5-1 tablespoons of tahini(more tahini = blander) and mix both in thoroughly</p>
+        <p>6. Serve, salt to liking and enjoy!</p>
+    </ol>
+    <br></br>
+    <i>I did not read the part that this had to be an online recipe — very my bad. <a href="https://senseandedibility.com/kale-with-tahini-lemon-dressing/">Here is a more complex version of the recipe for proof I know how to hyperlink.</a></i> 
+    <footer></footer>
+</body>
+</html>

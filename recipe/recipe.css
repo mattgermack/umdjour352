@@ -5,6 +5,8 @@ h1{
 
 i{
     color:red;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
 }
 
 ul{

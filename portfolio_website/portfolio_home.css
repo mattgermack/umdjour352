@@ -1,5 +1,43 @@
 header {
     background-color: lightblue;
-    margin-top: 25px;
+    text-align: left;
+}
+
+#my_name {
+    padding-top: 20px;
+    padding-left: 72px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#navig {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#far-left {
+    padding-left: 57px;
+}
+
+li{
+    display: block;
+    color: black;
     text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+#home_text {
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: left;
+}
+
+#footer_text {
+    padding-bottom: 20px;
+    margin-left: 25px;
 }

@@ -1,0 +1,95 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: lightblue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  padding: 2em;
+}
+
+.nav-link {
+  padding: 0 1em 0 0;
+  color:black
+}
+
+li{
+  display: list-item;
+  padding: 15px 15px 5px 10px;
+}
+
+main {
+  margin: 3em 2em 1em 2em;
+}
+
+footer {
+  background-color: lightblue;
+  text-align: left; 
+}
+
+footer p {
+  padding: 1em 2em
+}
+
+.clips img {
+  width: 325px;
+  margin: 0 auto 1em auto;
+}
+
+@media (max-height:526px){
+  .clips img {
+    height:auto;
+    padding: 2em 0;
+  }
+}
+
+a {
+  color: black;
+  font-size: 1.2em;
+}
+
+h6 {
+    text-align: center
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+#profile_link {
+  font-size: 0.9em;
+  color: #67c1cf;
+}
+  
+#contact_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 50px;
+
+}
+
+i, .schools {
+    color: #67c1cf;
+    display: block;
+}
+
+.desc {
+    margin-top: 20px;
+    font-size:0.8em;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.1em
+}
+

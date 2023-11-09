@@ -1,0 +1,176 @@
+header {
+    background-color: black;
+    min-height: 100vh;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.blackbox {
+    min-height: 20vh;
+    background-color: black;
+}
+
+#head-text {
+    color: white;
+    padding: 5% 0 5% 0;
+    margin-bottom: 20px;
+    font-family: 'Inconsolata';
+}
+
+.intro {
+    min-height: 60vh;
+    text-align: center;
+    font-family: 'Inconsolata';
+    padding: 0 20% 0 20%;
+    background-color: #e6f2ed;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#byline {
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 0 10% 0 10%;
+
+}
+
+@media (max-width:526px){
+    .clips img {
+      width:auto;
+    }
+  }
+
+.i-thought-this-was-a-timed-assignment-if-that-isnt-clear-lol {
+    background-color: #f9f9f1;
+    padding: 0 25% 0 25%;
+    min-height: 90vh;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+
+.part-2 {
+    background-color: #f9f9f1;
+    padding: 0 25% 0 25%;
+    min-height: 35vh;
+    font-family: 'Roboto';
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+main {
+    background-color: #4a4940
+}
+
+.results {
+    min-height: 100vh;
+    padding-left: 25%;
+    padding-top: 25vh;
+    background-color: #4a4940
+}
+
+.results p {
+    color: white;
+    font-weight: 100;
+    font-size: 0.85em;
+    font-family: 'Roboto';
+}
+
+.money-talk {
+    background-color: #f9f9f1;
+    min-height: 50vh;
+    padding-left: 25%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-quote {
+    background-color: #f6d8d9;
+    min-height: 40vh;
+    padding-left: 25%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-quote p {
+    color: #DB5461;
+    font-weight: 100;
+    font-size: 0.9em;
+    font-family: 'Inconsolata';
+    padding-left: 35px;
+    padding-bottom: 20px;
+}
+
+#chart {
+    padding: 5%;
+    background-color: #4a4940;
+}
+
+.money-talk p {
+    color: #121212;
+    font-weight: 100;
+    font-size: 0.9em;
+    font-family: 'Roboto';
+    padding-left: 35px;
+    padding-bottom: 20px;
+
+}
+
+.money-talk h2 {
+    color: #121212;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+h3 {
+    font-family: 'Inconsolata';
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+}
+
+#vimeo {
+    padding-left: 25%
+}
+
+h4 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.carousel {
+    min-height: 50vh;
+    padding-left: 25%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f0e6f6;
+}
+
+footer {
+    background-color: #ECF4EC;
+    min-height: 20vh;
+    text-align: center;
+}
+
+footer b{
+    font-family: 'Inconsolata'
+}
+
+a {
+    color: #DB5461;
+
+}

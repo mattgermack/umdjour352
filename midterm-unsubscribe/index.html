@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <meta name="Unsubscribe" content="Unsubscribing from many popular websites is much harder than it needs to be.">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/midterm-unsubscribe.css">
@@ -26,14 +29,12 @@
         <section class="intro">
             <h1>HOW COMPANIES MAKE IT DIFFICULT TO UNSUBSCRIBE</h1>
             <br>
+            <b>I unsubscribed from 16 online services and documented the ways companies made it, knowingly (or unknowingly), <em>challenging.</em></b>
             <br>
-            <p>I unsubscribed from 16 online services and documented the ways companies made it, knowingly (or unknowingly), <em>challenging.</em></p>
             <br>
             <div id="byline">
-                <p>by Caroline Sinders, illustrations by Tynesha Foreman, design/code by Matt Daniels</p>
+                <h6>by Caroline Sinders, illustrations by Tynesha Foreman, design/code by Matt Daniels</h6>
             </div>
-        </section>
-        <section class="i-thought-this-was-a-timed-assignment-if-that-isnt-clear-lol">
             <br>
             <br>
             <p>Have you ever signed up for an email newsletter and decided to unsubscribe only to discover a few weeks later you’re still signed up? That’s a dark pattern.</p>
@@ -43,8 +44,8 @@
             <p>I wanted to explore the malicious, confusing, and deceitful things that occur after signing up for digital services, as well as how design can nudge us to forget about a free trial or accidentally sign up for things that we didn’t intend to.</p>
             <p>Dark patterns are often most egregious with subscriptions and free trials, especially when attempting to cancel, so I focused on those.</p>
             <p>I ran an experiment from August 2 to October 4, 2022, signing up for 16 different services and immediately tried to unsubscribe or cancel.</p>
-        </section>
-        <section class="part-2">
+            <br>
+            <br>
             <br>
             <br>
             <h2>THE RESULTS</h2>
@@ -54,7 +55,7 @@
             <p>I found 20 instances of dark patterns across all 16 companies—let’s take a look at the major types.</p>
             <br>
         </section>
-        <section class="blackbox"></section>
+
         <section class="results">
             <section class="container">  
                 <div class="row">
@@ -71,7 +72,6 @@
                 </div>
             </section>
         </section>
-        <section class="blackbox"></section>
         <section class="results">
             <section class="container">  
                 <div class="row">
@@ -88,7 +88,6 @@
                 </div>
             </section>
         </section>
-        <section class="blackbox"></section>
         <section class="results">
             <section class="container">  
                 <div class="row">
@@ -103,7 +102,6 @@
                 </div>
             </section>
         </section>
-        <section class="blackbox"></section>
         <section class="results">
             <section class="container">  
                 <div class="row">
@@ -118,7 +116,6 @@
                 </div>
             </section>
         </section>
-        <section class="blackbox"></section>
         <br>
         <br>
         <h3 id="vimeo">HOWEVER, THE MOST EGREGIOUS ONE: VIMEO.</h3>
@@ -135,7 +132,6 @@
                 </div>
             </section>
         </section>
-        <section class="blackbox"></section>
         <section class="results">
             <section class="container">  
                 <div class="row">
@@ -150,7 +146,6 @@
                 </div>
             </section>
         </section>
-        <section class="blackbox"></section>
         <section class="results">
             <section class="container">  
                 <div class="row">
@@ -166,7 +161,6 @@
             </section>
         </section>
         </section>
-        <section class="blackbox"></section>
         <section class="money-talk">
             <section class="container">  
                 <div class="row">
@@ -179,10 +173,10 @@
                 </div>
             </section>
         </section>
-        <section class="chart-quote">
+        <section id="chart">
             <section class="container">  
                 <div class="row">
-                    <div class="col-sm-8" id="chart">
+                    <div class="col-sm-8" id="actual-chart">
                         <iframe title="I lost a lot of money. Like, a lot." aria-label="Table" id="datawrapper-chart-RwGJ1"
                         src="https://datawrapper.dwcdn.net/RwGJ1/6/" scrolling="no" frameborder="0"
                         style="width: 0; min-width: 100% !important; border: none;" height="451" data-external="1"></iframe>
@@ -245,14 +239,16 @@
                                         <img src="media/carousel/cancel_11.jpg" class="d-block w-100" alt="Daily Harvest cancellation page part 2">
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                                <div id="buttons">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
                                     data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel"
                                     data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 </button>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -287,7 +283,7 @@
                 </div>
             </section>
         </section>
-        <section class="chart-quote">
+        <section class="quote">
             <section class="container">  
                 <div class="row">
                     <div class="col-sm-8">

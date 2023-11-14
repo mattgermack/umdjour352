@@ -1,33 +1,38 @@
 header {
-    background-color: black;
+    background-color: #121212;
     min-height: 100vh;
     text-align: center;
 }
 
-body {
-    background-color: black;
-}
-
-.blackbox {
-    min-height: 20vh;
-    background-color: black;
+main {
+    background-color: #FCFDFE;
 }
 
 #head-text {
-    color: white;
+    color: #FCFDFE;
     padding: 5% 0 5% 0;
-    margin-bottom: 20px;
     font-family: 'Inconsolata';
 }
 
 .intro {
-    min-height: 60vh;
+    min-height: 100vh;
     text-align: center;
     font-family: 'Inconsolata';
-    padding: 0 20% 0 20%;
-    background-color: #e6f2ed;
-    font-weight: 700;
-    margin-bottom: 20px;
+    padding: 0 25% 0 25%;
+    background-color: #FCFDFE;
+}
+
+.intro p {
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.intro b {
+    font-family: 'Inconsolata';
+    font-weight: 500;
 }
 
 h1 {
@@ -36,9 +41,10 @@ h1 {
     font-weight: 900;
 }
 
-#byline {
+h6 {
     letter-spacing: 1px;
-    font-weight: 100;
+    font-weight: 300;
+    font-size: .75em;
     padding: 0 10% 0 10%;
 
 }
@@ -49,16 +55,16 @@ h1 {
     }
   }
 
+
 .i-thought-this-was-a-timed-assignment-if-that-isnt-clear-lol {
-    background-color: #f9f9f1;
+    background-color: #FCFDFE;
     padding: 0 25% 0 25%;
     min-height: 90vh;
-    margin-bottom: 20px;
     font-family: 'Roboto';
 }
 
 .part-2 {
-    background-color: #f9f9f1;
+    background-color: #FCFDFE;
     padding: 0 25% 0 25%;
     min-height: 35vh;
     font-family: 'Roboto';
@@ -71,97 +77,94 @@ h2 {
 }
 
 main {
-    background-color: #4a4940
+    background-color: #121212;
 }
 
 .results {
-    min-height: 100vh;
+    min-height: 150vh;
     padding-left: 25%;
     padding-top: 25vh;
-    background-color: #4a4940
+    background-color: #121212;
 }
 
 .results p {
-    color: white;
-    font-weight: 100;
-    font-size: 0.85em;
+    color: #FCFDFE;
+    font-weight: 400;
+    font-size: 15px;
     font-family: 'Roboto';
 }
 
 .money-talk {
-    background-color: #f9f9f1;
-    min-height: 50vh;
+    background-color: #FCFDFE;
+    min-height: 25vh;
     padding-left: 25%;
     padding-top: 20px;
-    margin-bottom: 20px;
 }
 
-.chart-quote {
-    background-color: #f6d8d9;
+#chart{
+    background-color: #FCFDFE;
+    min-height: 30vh;
+}
+
+.quote {
+    padding-left: 25%;
+    padding-top: 3%;
+    background-color: #FCFDFE;
     min-height: 40vh;
-    padding-left: 25%;
-    padding-top: 20px;
-    margin-bottom: 20px;
 }
 
-.chart-quote p {
+.quote p {
     color: #DB5461;
-    font-weight: 100;
-    font-size: 0.9em;
+    font-weight: 700;
+    font-size: 0.85em;
     font-family: 'Inconsolata';
-    padding-left: 35px;
-    padding-bottom: 20px;
 }
 
-#chart {
+
+#actual-chart {
     padding: 5%;
-    background-color: #4a4940;
+    margin-left: 16%;
 }
 
 .money-talk p {
     color: #121212;
-    font-weight: 100;
-    font-size: 0.9em;
+    font-weight: 400;
+    font-size: 15px;
     font-family: 'Roboto';
-    padding-left: 35px;
-    padding-bottom: 20px;
 
 }
 
 .money-talk h2 {
     color: #121212;
-    padding-top: 20px;
-    padding-left: 35px;
 }
 
 h3 {
     font-family: 'Inconsolata';
     font-size: 1.5em;
-    font-weight: bolder;
-    color: white;
+    color: #FCFDFE;
 }
 
 #vimeo {
-    padding-left: 25%
+    padding-left: 25%;
+    padding-bottom: 10%
 }
 
 h4 {
-    color: white;
+    color: #FCFDFE;
     font-family: 'Roboto';
     font-size: 1.5em;
-    font-weight: bolder;
 }
 
 .carousel {
     min-height: 50vh;
-    padding-left: 25%;
     padding-top: 20px;
-    margin-bottom: 20px;
-    background-color: #f0e6f6;
+    padding-left: 20%;
+    background-color: #FCFDFE;
 }
 
+
 footer {
-    background-color: #ECF4EC;
+    background-color: #FCFDFE;
     min-height: 20vh;
     text-align: center;
 }

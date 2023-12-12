@@ -1,0 +1,208 @@
+header {
+    background-color: #121212;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#head-text {
+    color: #FCFDFE;
+    padding: 5% 0 5% 0;
+    font-family: 'Inconsolata';
+}
+
+.intro {
+    min-height: 40vh;
+    text-align: center;
+    padding: 0 15% 0 15%;
+    background-color: #FCFDFE;
+}
+
+#intro_body {
+    background-color: #AA0000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#handoff {
+    padding-top: 40px;
+}
+
+.intro p {
+    text-align: left;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 15px;
+    color: #FCFDFE;
+
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+h6 {
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: .75em;
+    padding: 0 10% 0 10%;
+
+}
+
+h2 {
+    font-family: 'Inconsolata';
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+main {
+    background-color: #121212;
+}
+
+#facts {
+    font-size: 40px;
+}
+
+.results {
+    min-height: 21vh;
+    padding: 0 15%;
+    padding-top: 7vh;
+    background-color: #121212;
+    text-align: center;
+}
+
+
+
+.results p {
+    color: #FCFDFE;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: 'Roboto';
+}
+
+.henry {
+    min-height: 21vh;
+    padding: 20% 20% 0% 20%;
+    background-color: #121212;
+    text-align: center;
+}
+
+.final {
+    padding: 30% 20% 20% 20%;
+    text-align: center;
+}
+
+
+.henry h5, p {
+    color: #FCFDFE;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+
+.rules {
+    min-height: 21vh;
+    padding: 0 15%;
+    padding-top: 7vh;
+    background-color: #121212;
+}
+
+
+
+.rules p {
+    color: #FCFDFE;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.rpo {
+    min-height: 21vh;
+    padding: 0 15%;
+    padding-top: 7vh;
+    background-color: #121212;
+}
+
+.rpo p {
+    color: #FCFDFE;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+#rpo_blurb {
+    padding: 10% 5% 0% 5%;
+    
+}
+
+.explainer {
+    min-height: 21vh;
+    padding: 0 25%;
+    padding-top: 7vh;
+    background-color: #121212;
+}
+
+.explainer p {
+    color: #FCFDFE;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+#chart{
+    background-color: #FCFDFE;
+    min-height: 30vh;
+}
+
+
+#taylor {
+    width: 1000px;
+    height: 139px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 5em;
+    color: #FCFDFE;
+    text-align: center;
+    padding: 5% 10% 0 10%;
+}
+
+.coaches {
+    padding: 0 15%;
+    color: white;
+    text-align: center;
+}
+
+.coaches img {
+    width:250px;
+    height:139px;
+}
+
+.spacing {
+    min-height: 65vh;
+    padding: 10% 20% 0 20%;
+    text-align: center;
+
+}
+
+
+h4 {
+    color: #FCFDFE;
+    font-family: 'Roboto';
+    font-size: 1.75em;
+    font-weight: normal;
+}
+
+
+footer {
+    background-color: #FCFDFE;
+    min-height: 10vh;
+    text-align: center;
+    font-family: 'Inconsolata'
+}

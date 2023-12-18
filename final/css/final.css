@@ -7,7 +7,7 @@ header {
 .intro {
     min-height: 40vh;
     text-align: center;
-    padding: 0 15% 0 15%;
+    padding: 10% 15%;
     background-color: #FCFDFE;
 }
 
@@ -23,7 +23,7 @@ header {
 
 .intro p {
     text-align: left;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
     font-weight: 400;
     font-size: 15px;
     color: #FCFDFE;
@@ -31,11 +31,15 @@ header {
 }
 
 b {
-    font-family: 'PT Sans'
+    font-family: 'PT Sans', sans-serif;
+}
+
+#byline {
+    padding: 5% 0 0 0;
 }
 
 h1 {
-    padding-top: 5%;
+    padding: 5% 0;
     font-size: 3em;
     font-weight: 900;
 
@@ -46,12 +50,12 @@ h6 {
     font-weight: 300;
     font-size: .75em;
     padding: 0 10% 0 10%;
-    font-family: 'PT Sans'
+    font-family: 'PT Sans', sans-serif;
 
 }
 
 h2 {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
     font-size: 2.5em;
     font-weight: 700;
     color: white;
@@ -63,7 +67,7 @@ main {
 
 #facts {
     font-size: 40px;
-    padding: 0 15%
+    padding: 0 15%;
 }
 
 .results {
@@ -80,7 +84,7 @@ main {
     color: #FCFDFE;
     font-weight: 400;
     font-size: 19px;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .henry {
@@ -100,7 +104,7 @@ main {
     color: #FCFDFE;
     font-weight: 400;
     font-size: 19px;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .rules {
@@ -116,7 +120,7 @@ main {
     color: #FCFDFE;
     font-weight: 400;
     font-size: 19px;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
     text-align: center;
 }
 
@@ -130,7 +134,7 @@ main {
     color: #FCFDFE;
     font-weight: 400;
     font-size: 19px;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
     text-align: center;
 }
 
@@ -150,7 +154,7 @@ main {
     color: #FCFDFE;
     font-weight: 400;
     font-size: 20px;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
     text-align: center;
 }
 
@@ -170,8 +174,7 @@ h3 {
 }
 
 .coaches img {
-    width:250px;
-    height:139px;
+    max-height:139px;
 }
 
 .spacing {
@@ -184,7 +187,7 @@ h3 {
 
 h4 {
     color: #FCFDFE;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM Plex Serif', serif;
     font-size: 1.5em;
     font-weight: normal;
 }
@@ -194,5 +197,5 @@ footer {
     background-color: #FCFDFE;
     min-height: 10vh;
     text-align: center;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
 }
